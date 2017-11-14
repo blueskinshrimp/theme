@@ -13,7 +13,7 @@ class PapayaerAsset extends AssetBundle
         'css/now-ui-kit.css',
     ];
     public $js = [
-        'js/now-ui-kit.js'
+        'js/now-ui-kit.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
