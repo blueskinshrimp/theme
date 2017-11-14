@@ -1,0 +1,28 @@
+{
+    "name": "blueskinshrimp/theme",
+    "description": "Theme now-ui-kit extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "theme",
+        "now-ui-kit"
+    ],
+    "homepage": "https://github.com/blueskinshrimp/theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "blueskinshrimp",
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blueskinshrimp/theme"
+    },
+    "require": {
+        "now-ui-kit": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Papayaer\\now-ui-kit\\": ""
+        }
+    }
+}
