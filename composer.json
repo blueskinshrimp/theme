@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Papayaer\\now-ui-kit\\": ""
+            "Blueskinshrimp\\theme\\": ""
         }
     }
 }
