@@ -1,5 +1,5 @@
 <?php
-namespace papayaer\web;
+namespace shrimp\web;
 
 use yii\base\Exception;
 use yii\web\AssetBundle;
@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
  */
 class PapayaerAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/creativetimofficial/now-ui-kit/assets';
+    public $sourcePath = '@vendor/nowuikit2017/assets';
     public $css = [
         'css/now-ui-kit.css',
     ];
@@ -17,7 +17,7 @@ class PapayaerAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        //'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapPluginAsset',
     ];
 }
