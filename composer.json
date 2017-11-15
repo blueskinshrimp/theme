@@ -1,28 +1,21 @@
 {
     "name": "blueskinshrimp/theme",
-    "description": "Theme now-ui-kit extension for Yii2",
+    "description": "blueskinshrimp theme asset for Yii 2.0 Framework",
     "type": "yii2-extension",
-    "keywords": [
-        "yii2",
-        "theme",
-        "now-ui-kit"
-    ],
-    "homepage": "https://github.com/blueskinshrimp/theme",
+    "keywords": ["yii2","theme","asset","css","less"],
     "license": "MIT",
     "authors": [
         {
-            "name": "blueskinshrimp"
+            "name": "blueskinshrimp",
+            "email": ""
         }
     ],
-    "support": {
-        "source": "https://github.com/blueskinshrimp/theme"
-    },
     "require": {
         "twbs/bootstrap": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "Blueskinshrimp\\theme\\": ""
+            "shrimp\\": ""
         }
     }
 }
