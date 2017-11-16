@@ -16,16 +16,16 @@ class PapayaerAsset extends AssetBundle
         'js/now-ui-kit.js',
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        //'yii\bootstrap\BootstrapAsset',
-        //'yii\bootstrap\BootstrapPluginAsset',
+        // 'yii\web\YiiAsset',
+        'shrimp\web\BootstrapAsset',
+        'shrimp\web\BootstrapPluginAsset',
     ];
     
-    public function init()
-    {
-        $postfix = YII_DEBUG ? '' : '.min';
-        $this->css[] = 'bootstrap' . $postfix . '.css';
+    // public function init()
+    // {
+    //     $postfix = YII_DEBUG ? '' : '.min';
+    //     $this->css[] = 'bootstrap' . $postfix . '.css';
 
-        parent::init();
-    }
+    //     parent::init();
+    // }
 }
