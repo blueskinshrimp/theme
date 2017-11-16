@@ -20,4 +20,12 @@ class PapayaerAsset extends AssetBundle
         //'yii\bootstrap\BootstrapAsset',
         //'yii\bootstrap\BootstrapPluginAsset',
     ];
+    
+    public function init()
+    {
+        $postfix = YII_DEBUG ? '' : '.min';
+        $this->css[] = 'bootstrap' . $postfix . '.css';
+
+        parent::init();
+    }
 }
