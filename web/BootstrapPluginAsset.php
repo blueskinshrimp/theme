@@ -17,12 +17,17 @@ use yii\web\AssetBundle;
  */
 class BootstrapPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/twbs/bootstrap/dist';
+    public $sourcePath = '@vendor/nowuikit2017/assets';
     public $js = [
-        'js/bootstrap.js',
+        'js/core/popper.min.js',
+        'js/core/bootstrap.min.js',
+        'js/plugins/bootstrap-switch.js',
+        'js/plugins/nouislider.min.js',
+        'js/plugins/bootstrap-datepicker.js',
     ];
     public $depends = [
-        'yii\web\JqueryAsset',
+        // 'yii\web\JqueryAsset',
+        'shrimp\web\JqueryAsset',
         'shrimp\web\BootstrapAsset',
     ];
 }

@@ -18,7 +18,8 @@ use yii\web\AssetBundle;
 class BootstrapAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/twbs/bootstrap/dist';
+    // public $sourcePath = '@vendor/nowuikit2017/assets';
     public $css = [
-        'css/bootstrap.css',
+        'css/bootstrap.min.css',
     ];
 }
