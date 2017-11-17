@@ -21,9 +21,9 @@ class BootstrapPluginAsset extends AssetBundle
     public $js = [
         'js/core/popper.min.js',
         'js/core/bootstrap.min.js',
-        'js/plugins/bootstrap-switch.js',// Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/
-        'js/plugins/nouislider.min.js',// Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/
-        'js/plugins/bootstrap-datepicker.js',// Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker
+        // 'js/plugins/bootstrap-switch.js',// Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/
+        // 'js/plugins/nouislider.min.js',// Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/
+        // 'js/plugins/bootstrap-datepicker.js',// Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker
     ];
     public $depends = [
         // 'yii\web\JqueryAsset',
