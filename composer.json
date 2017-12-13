@@ -10,8 +10,8 @@
             "email": "papayaer@163.com"
         }
     ],
-    "require": {
-        "twbs/bootstrap": "~4.0.*@beta"
+    "require-dev": {
+        "twbs/bootstrap": "~4.0"
     },
     "autoload": {
         "psr-4": {
