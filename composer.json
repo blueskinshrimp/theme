@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "twbs/bootstrap": "~4.0.0.*@beta"
+        "twbs/bootstrap": "~4.0.*@beta"
     },
     "autoload": {
         "psr-4": {
